@@ -38,5 +38,11 @@ nav > a{
 }
 
 main{
+    height: 100vh;
     background-color: darkslategrey;
+    background-image: url(imagens/imagens/foto\ com\ fundo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
 }
