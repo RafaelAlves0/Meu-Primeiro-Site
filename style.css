@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+font-family: 'Neonderthaw', cursive;
+
 :root{
 
 }
@@ -14,6 +18,7 @@
 }
 
 body{
+    font-size: 100%;
     background-color: lightcyan;
 }
 
@@ -29,7 +34,7 @@ header .capa{
 
 }
 
-nav ul{
+header nav ul{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -38,7 +43,7 @@ nav ul{
     padding: 10px;
 }
 
-nav ul li a{
+header nav ul li a{
     color: white;
     font-size: 20px;
     padding-bottom: 5px;
@@ -47,12 +52,12 @@ nav ul li a{
     transition: all .6s;
 }
 
-nav ul li a:hover{
+header nav ul li a:hover{
     border-bottom: 2px solid greenyellow;
     border-top: 2px solid greenyellow;
 }
 
-nav > a{
+header nav > a{
     color: greenyellow;
     padding: 20px;
     text-decoration: none;
