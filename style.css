@@ -19,51 +19,72 @@ font-family: 'Neonderthaw', cursive;
 
 body{
     font-size: 100%;
-    background-color: lightcyan;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.541), rgba(0, 0, 139, 0.493), rgba(0, 0, 0, 0.589));
+    
 }
 
 header{
-    background-color: black;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
 
 }
 
 
-header .capa{
-    
+header .espigapoints{
+    width: 60px;
 
 }
 
-header nav ul{
+
+header nav{
     display: flex;
     align-items: center;
-    gap: 40px;
-    background-color: darkslategray;
-    box-shadow: 2px 2px 8px darkgray;
-    padding: 10px;
+    gap: 50px;
 }
 
-header nav ul li a{
+header nav .itens{
     color: white;
     font-size: 20px;
-    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 20px;
     border-bottom: 2px solid transparent;
-    border-top: 2px solid transparent;
     transition: all .6s;
 }
 
-header nav ul li a:hover{
+header nav .itens:hover{
     border-bottom: 2px solid greenyellow;
-    border-top: 2px solid greenyellow;
+
 }
 
-header nav > a{
-    color: greenyellow;
-    padding: 20px;
-    text-decoration: none;
-}
 
 main{
-
+    margin-bottom: 50px;
     
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+
+}
+
+main .principal{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+main .botao{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+main.logo{
+    display: flex;
+    padding: 25px;
 }
