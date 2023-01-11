@@ -65,7 +65,7 @@ main{
     
 }
 
-section{
+main .primeiro{
     display: flex;
     flex-direction: row;
     padding: 25px;
@@ -75,7 +75,12 @@ section{
 main .principal{
     display: flex;
     flex-direction: column;
+    text-align: center;
     
+}
+main .texto-principal{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 50px;
 
 }
 
