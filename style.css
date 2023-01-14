@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 
-font-family: 'Neonderthaw', cursive;
-
 :root{
 
 }
@@ -67,6 +65,7 @@ main{
 
 main .primeiro{
     display: flex;
+    gap: 50px;
     flex-direction: row;
     padding: 25px;
 
@@ -78,9 +77,14 @@ main .principal{
     text-align: center;
     
 }
+
 main .texto-principal{
     font-family: 'Neonderthaw', cursive;
     font-size: 50px;
+
+}
+
+main .texto-secundario{
 
 }
 
