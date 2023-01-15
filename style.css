@@ -93,7 +93,33 @@ main .botao{
     border-radius: 20px;
 }
 
+main .botao:hover{
+    border: 2px solid rgb(77, 68, 68);
+}
+
 main.logo{
     display: flex;
+    padding: 25px;
+}
+
+main .segundo{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    padding: 25px;
+
+}
+
+main .secundario{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 50px;
     padding: 25px;
 }
