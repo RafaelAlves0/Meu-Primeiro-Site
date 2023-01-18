@@ -15,11 +15,13 @@
 
 }
 
-body{
+html, body{
+    min-height: 100vh;
+    color: white;
     font-size: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.541), rgba(0, 0, 139, 0.493), rgba(0, 0, 0, 0.589));
-    
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 139, 0.493), rgba(0, 0, 0, 0.986));
 }
+
 
 header{
     display: flex;
@@ -78,17 +80,13 @@ main .principal{
     
 }
 
-main .texto-principal{
+main .principal h1{
     font-family: 'Neonderthaw', cursive;
     font-size: 50px;
 
 }
 
-main .texto-secundario{
-
-}
-
-main .botao{
+main .principal .botao{
     border: 1px solid black;
     border-radius: 20px;
 }
@@ -97,7 +95,7 @@ main .botao:hover{
     border: 2px solid rgb(77, 68, 68);
 }
 
-main.logo{
+section .logo{
     display: flex;
     padding: 25px;
 }
@@ -115,6 +113,7 @@ main .secundario{
     flex-direction: column;
     text-align: left;
 }
+
 
 footer{
     display: flex;
